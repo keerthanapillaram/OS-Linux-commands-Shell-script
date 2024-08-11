@@ -173,6 +173,7 @@ cat newfile | grep -i "hello"
 ## OUTPUT
 ```
 Hello world
+hello world
 ```
 
 cat newfile | grep -i -c "hello"
