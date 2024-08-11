@@ -710,6 +710,11 @@ file1
 echo $?
 ## OUTPUT 
 ```
+0
+```
+echo $?
+## OUTPUT 
+```
 1
 ```
 
@@ -719,7 +724,7 @@ bash: ./one: Permission denied
 echo $?
 ## OUTPUT 
 ```
-1
+0
 ```
  
 abcd
@@ -727,7 +732,7 @@ abcd
 echo $?
 ## OUTPUT
 ```
-0
+127
 ```
 
  
