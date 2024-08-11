@@ -1173,13 +1173,12 @@ $ chmod 755 forin1.sh
 
 ## OUTPUT
 ```
-# Output:
-word:I
-word:don't
-word:know
-word:if
-word:this'll
-word:work
+The next state is Alabama
+The next state is Alaska
+The next state is Arizona
+The next state is Arkansas
+The next state is California
+The next state is Colorado
 ```
 
 cat forinfile.sh 
@@ -1373,11 +1372,11 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-```
 
+```
 Enter your name: Keerthana
 Hello Keerthana, welcome to my program. 
-
+```
 
 $ ./exread1.sh 
  
@@ -1478,12 +1477,6 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
-## OUTPUT
-```
-Total characters: 353
-Number of Lines: 16
-Number of Words: 60
-```
 
 cat>data.dat
 ```bash
