@@ -1539,7 +1539,7 @@ fi
 Enter the number
 23432
 Number is palindrome
-
+```
 
 # RESULT:
 The Commands are executed successfully.
